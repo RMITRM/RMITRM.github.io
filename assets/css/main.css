@@ -26,6 +26,7 @@ section, summary, time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
     margin-bottom: 0px;
+    margin-right: 0px;
 }
 
 article, aside, details, figcaption, figure,
@@ -134,8 +135,7 @@ input, select, textarea {
 
 	p {
     margin-top: 0px;
-    margin-right: 0;
-    margin-left: 0;
+    margin-bottom: 20px;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1771,7 +1771,6 @@ input, select, textarea {
 	header p {
     color: #aaa;
     position: relative;
-    margin-top: -64px;
     margin-right: 0;
     margin-left: 0;
 	}
@@ -2240,7 +2239,8 @@ input, select, textarea {
 	}
 
 		ul li {
-			padding-left: 0.5em;
+    padding-left: 0.5em;
+    padding-bottom: 0px;
 		}
 
 		ul.alt {
@@ -2437,8 +2437,11 @@ input, select, textarea {
 	}
 
 		ul.icons li {
-			display: inline-block;
-			padding: 0 1em 0 0;
+    display: inline-block;
+    padding-top: 0;
+    padding-right: 60px;
+    padding-left: 0;
+    padding-bottom: 0;
 		}
 
 			ul.icons li:last-child {
@@ -2673,10 +2676,11 @@ input, select, textarea {
 	}
 
 		.features article:first-child {
-    border-top: 0;
+    border-top-width: 0;
     padding-left: 0px;
     padding-bottom: 0px;
-    padding-top: 20px;
+    padding-top: 21px;
+    padding-right: 0px;
 		}
 
 		.features article .image {
@@ -2692,9 +2696,9 @@ input, select, textarea {
 			}
 
 		.features article .inner {
-			display: inline-block;
-			vertical-align: middle;
-			width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
 		}
 
 			.features article .inner > :last-child {
@@ -2805,9 +2809,12 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-	border-top: 2px solid #DBB7EA;
-	display: block;
-	padding: 0;
+    border-top: 2px solid #DBB7EA;
+    display: block;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
 				}
 
 					#header > nav ul li a {
@@ -2821,7 +2828,7 @@ input, select, textarea {
     padding-top: 0.85em;
     padding-right: 0;
     padding-left: 0;
-    padding-bottom: 1em;
+    padding-bottom: 0em;
     text-decoration: none;
 					}
 
